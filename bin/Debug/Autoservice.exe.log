@@ -1,0 +1,156 @@
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRe0, Thread: 0x3E44 (Main), GetLastError(): 13 (Недопустимые данные), errno: 22 (Invalid argument), _doserrno: 3 (No such process). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041E5E2 in C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe: main() at C:/Users/root/source/repos/Autoservice/main.cpp (150):
+
+    148:     txClear();
+    149: 
+=>  150:       txBitBlt(txDC(),0, 0, 900, 800, fon);
+    151:       txTransparentBlt(txDC(), 70, 280, 500, 280, avto, 0,0, TX_WHITE);
+    152: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 25 2022 18:24:13, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 25 2022 18:24:18
+
+Run file:	C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe
+Directory:	C:\Users\root\source\repos\Autoservice
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13657, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRe0, Thread: 0x3E44 (Main), GetLastError(): 13 (Недопустимые данные), errno: 22 (Invalid argument), _doserrno: 3 (No such process). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004173D3 in C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe: txTransparentBlt() at c:/codeblocks/mingw/include/txlib.h (13657)
+
+# 1 0x0041E66C in C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe: main() at C:/Users/root/source/repos/Autoservice/main.cpp (151):
+
+    149: 
+    150:       txBitBlt(txDC(),0, 0, 900, 800, fon);
+=>  151:       txTransparentBlt(txDC(), 70, 280, 500, 280, avto, 0,0, TX_WHITE);
+    152: 
+    153:         //Рисование кнопок
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 25 2022 18:24:13, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 25 2022 18:24:18
+
+Run file:	C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe
+Directory:	C:\Users\root\source\repos\Autoservice
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRe0, Thread: 0x3F40 (Main), GetLastError(): 13 (Недопустимые данные), errno: 22 (Invalid argument), _doserrno: 3 (No such process). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041E5E2 in C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe: main() at C:/Users/root/source/repos/Autoservice/main.cpp (150):
+
+    148:     txClear();
+    149: 
+=>  150:       txBitBlt(txDC(),0, 0, 900, 800, fon);
+    151:       txTransparentBlt(txDC(), 70, 280, 500, 280, avto, 0,0, TX_WHITE);
+    152: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 25 2022 18:24:13, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 25 2022 18:25:59
+
+Run file:	C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe
+Directory:	C:\Users\root\source\repos\Autoservice\bin\Debug
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13657, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRe0, Thread: 0x3F40 (Main), GetLastError(): 13 (Недопустимые данные), errno: 22 (Invalid argument), _doserrno: 3 (No such process). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004173D3 in C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe: txTransparentBlt() at c:/codeblocks/mingw/include/txlib.h (13657)
+
+# 1 0x0041E66C in C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe: main() at C:/Users/root/source/repos/Autoservice/main.cpp (151):
+
+    149: 
+    150:       txBitBlt(txDC(),0, 0, 900, 800, fon);
+=>  151:       txTransparentBlt(txDC(), 70, 280, 500, 280, avto, 0,0, TX_WHITE);
+    152: 
+    153:         //Рисование кнопок
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Jan 25 2022 18:24:13, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Jan 25 2022 18:25:59
+
+Run file:	C:\Users\root\source\repos\Autoservice\bin\Debug\Autoservice.exe
+Directory:	C:\Users\root\source\repos\Autoservice\bin\Debug
+
+--------------------------------------------------

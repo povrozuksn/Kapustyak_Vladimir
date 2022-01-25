@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1643120653 source:c:\users\root\source\repos\autoservice\main.cpp
+	"TXLib.h"
+	<iostream>
+	<conio.h>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+

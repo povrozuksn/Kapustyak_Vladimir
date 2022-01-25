@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Autoservice build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>25-01-2022 at 18:24.13</u><br />
+Build ended on: <u>25-01-2022 at 18:24.17</u><p />
+<b>-------------- Build: Debug in Autoservice (compiler: GNU GCC Compiler)---------------</b><br />
+g++.bat -Wall -fexceptions  -g     -c C:\Users\root\source\repos\Autoservice\main.cpp -o obj\Debug\main.o<br />
+------------------------------------------------------------------------------------------------------<br />
+Compilation ERRORS:<br />
+<br />
+C:\Users\root\source\repos\Autoservice\main.cpp: In function 'void drawButton(Button)':<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:18:6: warning: no previous declaration for 'void drawButton(Button)' [-Wmissing-declarations]</font><br />
+ void drawButton(Button btn)<br />
+      ^<br />
+C:\Users\root\source\repos\Autoservice\main.cpp: In function 'bool Click(Button)':<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:29:6: warning: no previous declaration for 'bool Click(Button)' [-Wmissing-declarations]</font><br />
+ bool Click(Button btn)<br />
+      ^<br />
+C:\Users\root\source\repos\Autoservice\main.cpp: In function 'int get_w(std::string)':<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:57:5: warning: no previous declaration for 'int get_w(std::string)' [-Wmissing-declarations]</font><br />
+ int get_w(string adress)<br />
+     ^<br />
+C:\Users\root\source\repos\Autoservice\main.cpp: In function 'int get_h(std::string)':<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:69:5: warning: no previous declaration for 'int get_h(std::string)' [-Wmissing-declarations]</font><br />
+ int get_h(string adress)<br />
+     ^<br />
+C:\Users\root\source\repos\Autoservice\main.cpp: In function 'void drawPicture(Picture)':<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:81:6: warning: no previous declaration for 'void drawPicture(Picture)' [-Wmissing-declarations]</font><br />
+ void drawPicture(Picture pct)<br />
+      ^<br />
+C:\Users\root\source\repos\Autoservice\main.cpp: In constructor 'Picture::Picture()':<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:45:8: warning: 'Picture::x' should be initialized in the member initialization list [-Weffc++]</font><br />
+ struct Picture<br />
+        ^<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:45:8: warning: 'Picture::y' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:45:8: warning: 'Picture::adress' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:45:8: warning: 'Picture::image' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:45:8: warning: 'Picture::category' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:45:8: warning: 'Picture::w' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:45:8: warning: 'Picture::h' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:45:8: warning: 'Picture::visible' should be initialized in the member initialization list [-Weffc++]</font><br />
+C:\Users\root\source\repos\Autoservice\main.cpp: In function 'int main()':<br />
+C:\Users\root\source\repos\Autoservice\main.cpp:101:35: note: synthesized method 'Picture::Picture()' first required here <br />
+     Picture menuPicture[COUNT_PICS];<br />
+                                   ^<br />
+C:\Users\root\source\repos\Autoservice\main.cpp: In constructor 'Button::Button()':<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:10:8: warning: 'Button::x' should be initialized in the member initialization list [-Weffc++]</font><br />
+ struct Button<br />
+        ^<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:10:8: warning: 'Button::y' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:10:8: warning: 'Button::text' should be initialized in the member initialization list [-Weffc++]</font><br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:10:8: warning: 'Button::category' should be initialized in the member initialization list [-Weffc++]</font><br />
+C:\Users\root\source\repos\Autoservice\main.cpp: In function 'int main()':<br />
+C:\Users\root\source\repos\Autoservice\main.cpp:119:26: note: synthesized method 'Button::Button()' first required here <br />
+     Button btn[COUNT_BTNS];<br />
+                          ^<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:238:54: warning: conversion to 'int' from 'double' may alter its value [-Wconversion]</font><br />
+                 centralPicture[vybor].x = txMouseX() - centralPicture[vybor].w/2;<br />
+                                                      ^<br />
+<font color="#0000ff">C:\Users\root\source\repos\Autoservice\main.cpp:239:54: warning: conversion to 'int' from 'double' may alter its value [-Wconversion]</font><br />
+                 centralPicture[vybor].y = txMouseY() - centralPicture[vybor].h/2;<br />
+                                                      ^<br />
+------------------------------------------------------------------------------------------------------<br />
+Initialized empty Git repository in C:/Users/root/source/repos/Autoservice/.git-auto/<br />
+Autosaving to the Git repository in C:/Users/root/source/repos/Autoservice/.git-auto/... <br />
+g++.exe  -o bin\Debug\Autoservice.exe obj\Debug\main.o     -mwindows<br />
+Output size is 2,20 MB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minutes, 4 seconds)</font><br />
+<font color="#0000ff">0 errors, 19 warnings (0 minutes, 4 seconds)</font><br />
+</tt>
+</body>
+</html>
